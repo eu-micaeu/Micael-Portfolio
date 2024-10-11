@@ -12,10 +12,10 @@
 .header {
 
   display: flex;
-  align-items: center;
   flex-direction: column;
   justify-content: center;
   padding: 30px 0;
+  width: 90%;
 
 }
 
@@ -73,7 +73,8 @@
 
 .part1 h1{
 
-  font-size: 48px;
+  font-size: 128px;
+  margin: 0;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-decoration: underline;
 
@@ -118,17 +119,17 @@
 
 }
 
-.projects {
+.projects, .languages, .technologies {
 
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
   width: 90%;
-  margin-top: 50px;
+  margin: 50px 0;
 
 }
 
-.project-item {
+.project-item, .languages-item, .technologies-item {
 
   background-color: #000000;
   text-align: center;
@@ -141,7 +142,7 @@
 
 }
 
-.project-item:hover{
+.project-item:hover, .languages-item:hover, .technologies-item:hover {
 
   transform: scale(1.1);
   cursor: pointer;
@@ -202,30 +203,6 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-
-}
-
-.languages, .technologies {
-
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  gap: 30px;
-  width: 90%;
-  margin-top: 50px;
-
-}
-
-.languages-item, .technologies-item {
-
-  background-color: #000000;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  transition: ease 0.5s;
-  padding: 100px 0;
 
 }
 

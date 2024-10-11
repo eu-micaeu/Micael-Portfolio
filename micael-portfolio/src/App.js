@@ -9,7 +9,7 @@ function App() {
 
       <div className="header">
 
-        <h1>Micael</h1>
+        <h1>Micael Ribeiro Rocha</h1>
 
       </div>
 
@@ -19,7 +19,7 @@ function App() {
 
           <h1>M</h1>
 
-          <p>Hy, my name is Micael!</p>
+          <p>Student of the Software Engineering course at UTFPR (Federal Technological University of Paraná), passionate about technology and programming.</p>
 
         </div>
 
@@ -88,16 +88,6 @@ function App() {
 
       </div>
 
-      <div className="lineCV">
-
-        <hr></hr>
-
-        <a href="meu-cv.docx" download="Meu_CV.docx">Download CV</a>
-
-        <hr></hr>
-
-      </div>
-
       <div className="nameLanguages">
 
         <h1>Languages</h1>
@@ -155,6 +145,16 @@ function App() {
           <h1>GitHub</h1>
 
         </div>
+
+      </div>
+
+      <div className="lineCV">
+
+        <hr></hr>
+
+        <a href="meu-cv.docx" download="Meu_CV.docx">Download CV</a>
+
+        <hr></hr>
 
       </div>
 
