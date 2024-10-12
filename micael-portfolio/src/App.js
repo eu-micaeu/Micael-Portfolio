@@ -9,7 +9,7 @@ function App() {
 
       <div className="header">
 
-        <h1>Micael Ribeiro Rocha</h1>
+        <h1>Micael Ribeiro Rocha | Software Engineering</h1>
 
       </div>
 
@@ -24,7 +24,6 @@ function App() {
         </div>
 
         <div className="part2">
-
 
 
         </div>
