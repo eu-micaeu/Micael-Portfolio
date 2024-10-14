@@ -56,10 +56,7 @@ function App() {
 
           <h1>M</h1>
 
-          <p>I am currently expanding my expertise in Software Engineering at UTFPR, with completion scheduled for December 2025. At Tata Consultancy Services, as a Junior Systems Analyst, I applied my knowledge on a daily basis in protocols such as HTTP and design tools such as Figma, in addition to manage MySQL databases, which consolidated my technical skills.
-
-            My journey in the IT area began as a Trainee and evolved quickly, reflecting my motivation to develop innovative solutions and my ability to adapt to changes in the sector. This trajectory demonstrates my commitment to contributing significantly to the goals of the team and the organization.</p>
-
+          <p>I am expanding my Software Engineering expertise at UTFPR, set to complete in December 2025. At Tata Consultancy Services, as a Junior Systems Analyst, I worked with HTTP protocols, Figma, and managed MySQL databases, honing my technical skills. Starting as a Trainee, I quickly advanced, driven by a passion for innovation and adaptability. This reflects my commitment to team and organizational goals.</p>
         </div>
 
         <div className="part2">
