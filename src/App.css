@@ -19,64 +19,36 @@
 
 }
 
-.header h1 {
+.header h1{
 
-  font-size: 1.5rem;
   display: flex;
   align-items: center;
-  width: 100%;
-  height: 50px;
-  display: flex;
-  justify-content: center;
+  font-size: 1rem;
+  width: 50%;
 
 }
 
-.header .menu button{
+.header .menu{
 
-  font-size: 1.5rem;
-  margin: 0 20px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  text-decoration: none;
-  color: black;
   display: flex;
   align-items: center;
-  justify-content: center;
-  background-color: transparent;
-  border: none;
-  width: 100px;
-
-}
-
-.header .menu button:hover {
-
+  justify-content: space-around;
+  width: 50%;
+  font-family: monospace;
+  font-size: 1.2rem;
   color: rgb(0, 175, 0);
   cursor: pointer;
 
 }
 
-.menu {
-
-  display: flex;
-  flex-direction: row;
-
-}
-
-.menu a {
-
-  font-size: 1.5rem;
-  margin: 0 20px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  text-decoration: none;
-  color: black;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-}
-
-.menu a:hover {
+.header .menu button {
 
   color: rgb(0, 175, 0);
+  background-color: transparent;
+  border: none;
+  padding: 10px 20px;
+  font-family: monospace;
+  font-size: 1.2rem;
   cursor: pointer;
 
 }
