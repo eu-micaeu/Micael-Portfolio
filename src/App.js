@@ -1,7 +1,14 @@
-import React from "react";
+import React, { useState } from 'react';
 import "./App.css";
+import FontDinamica from './components/FontDinamica'; 
 
 function App() {
+
+  const [language, setLanguage] = useState('pt');
+
+  const toggleLanguage = () => {
+    setLanguage(prevLang => (prevLang === 'pt' ? 'en' : 'pt'));
+  };
 
   return (
 
@@ -9,7 +16,7 @@ function App() {
 
       <div className="header">
 
-        <h1>Micael Ribeiro Rocha | Software Engineering</h1>
+        <FontDinamica />
 
         <div className="menu">
 
@@ -20,6 +27,12 @@ function App() {
           <a href="#frameworks">Frameworks</a>
 
           <a href="#technologies">Technologies</a>
+
+          <button onClick={toggleLanguage} className="toggle-language-button">
+
+            {language === 'pt' ? 'EN' : 'PT'}
+
+          </button>
 
         </div>
 
