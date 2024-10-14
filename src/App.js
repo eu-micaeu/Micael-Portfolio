@@ -1,13 +1,17 @@
 import React, { useState } from 'react';
 import "./App.css";
-import FontDinamica from './components/FontDinamica'; 
+import { Link } from 'react-scroll';
+import FontDinamica from './components/FontDinamica';
 
 function App() {
 
+  // 
   const [language, setLanguage] = useState('pt');
 
   const toggleLanguage = () => {
+
     setLanguage(prevLang => (prevLang === 'pt' ? 'en' : 'pt'));
+
   };
 
   return (
@@ -20,13 +24,21 @@ function App() {
 
         <div className="menu">
 
-          <a href="#projects">Projects</a>
+          <Link to="projects" smooth={true} duration={500}>
+            Projects
+          </Link>
 
-          <a href="#programmingLanguages">Programming Languages</a>
+          <Link to="programmingLanguages" smooth={true} duration={500}>
+            Languages
+          </Link>
 
-          <a href="#frameworks">Frameworks</a>
+          <Link to="frameworks" smooth={true} duration={500}>
+            Frameworks
+          </Link>
 
-          <a href="#technologies">Technologies</a>
+          <Link to="technologies" smooth={true} duration={500}>
+            Technologies
+          </Link>
 
           <button onClick={toggleLanguage} className="toggle-language-button">
 
@@ -67,9 +79,9 @@ function App() {
 
       </div>
 
-      <div className="nameProjects">
+      <div id="projects" className="nameProjects">
 
-        <h1 id="projects">Projects</h1>
+        <h1>Projects</h1>
 
       </div>
 
@@ -82,11 +94,12 @@ function App() {
           <img src="https://github.com/eu-micaeu/TecTec/blob/main/static/images/logo.png?raw=true" alt="Project 1" width={100} height={100} />
 
           <h1>
-            <span style={{ color: 'green', fontSize: 40 }}>Tec</span>
-            <span style={{ color: 'white', fontSize: 40 }}>Tec</span>
-          </h1>
 
-          <p>Project 1 Description</p>
+            <span style={{ color: 'green', fontSize: 40 }}>Tec</span>
+
+            <span style={{ color: 'white', fontSize: 40 }}>Tec</span>
+
+          </h1>
 
         </div>
 
@@ -97,10 +110,10 @@ function App() {
           <img src="https://github.com/eu-micaeu/MyCommiserate/blob/main/static/images/logo.png?raw=true" alt="Project 2" width={100} height={100} />
 
           <h1>
-            <span style={{ color: 'white', fontSize: 40 }}>MyCommiserate</span>
-          </h1>
 
-          <p>Project 2 Description</p>
+            <span style={{ color: 'white', fontSize: 40 }}>MyCommiserate</span>
+
+          </h1>
 
         </div>
 
@@ -111,18 +124,18 @@ function App() {
           <img src="https://github.com/eu-micaeu/Foq/blob/main/static/logo.png?raw=true" alt="Project 3" width={100} height={100} />
 
           <h1>
-            <span style={{ color: 'white', fontSize: 40 }}>Foq!</span>
-          </h1>
 
-          <p>Project 3 Description</p>
+            <span style={{ color: 'white', fontSize: 40 }}>Foq!</span>
+
+          </h1>
 
         </div>
 
       </div>
 
-      <div className="nameLanguages">
+      <div id="programmingLanguages" className="nameLanguages">
 
-        <h1 id="programmingLanguages">Programming Languages</h1>
+        <h1>Programming Languages</h1>
 
       </div>
 
@@ -180,9 +193,9 @@ function App() {
 
       </div>
 
-      <div className="nameFrameworks">
+      <div id="frameworks" className="nameFrameworks">
 
-        <h1 id="frameworks">Frameworks</h1>
+        <h1>Frameworks</h1>
 
       </div>
 
@@ -240,9 +253,9 @@ function App() {
 
       </div>
 
-      <div className="nameTechnologies">
+      <div id="technologies" className="nameTechnologies">
 
-        <h1 id="technologies">Technologies</h1>
+        <h1>Technologies</h1>
 
       </div>
 
