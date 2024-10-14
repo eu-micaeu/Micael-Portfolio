@@ -1,34 +1,27 @@
-.body{
-
+.body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
 
 .header {
-
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding: 30px 0;
   width: 90%;
   height: 10vh;
-
 }
 
-.header h1 {
 
-  font-size: 2.5rem;
-  margin: 0;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.header h1 {
+  font-size: 1.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
 .header .menu {
@@ -59,27 +52,22 @@
 }
 
 .about {
-
   display: flex;
-  align-items: center;
   flex-direction: row;
-  background-color: rgb(0, 175, 0);
   height: 90vh;
   width: 100%;
-
 }
 
-.about p{
+.about p {
 
   font-size: 1.3rem;
   margin: 100px;
   font-family: monospace
-
 }
 
 .part1 {
 
-  width: 80%;
+  width: 70%;
   height: 100%;
   display: flex;
   padding: 0 50px;
@@ -89,9 +77,10 @@
 
 }
 
-.part2{
+.part2 {
 
-  width: 20%;
+  background-color: rgb(0, 175, 0);
+  width: 30%;
 
 }
 
@@ -102,13 +91,8 @@
 
 }
 
-.part1 h1{
-
+.part1 h1 {
   font-size: 10rem;
-  margin: 0;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  text-decoration: underline;
-
 }
 
 .linePortfolio {
@@ -150,17 +134,17 @@
 
 }
 
-.projects, .languages, .technologies {
-
+.projects,
+.languages,
+.technologies {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
   width: 90%;
   margin: 50px 0;
-
 }
 
-.contacts{
+.contacts {
 
   display: flex;
   align-items: center;
@@ -172,7 +156,7 @@
 
 }
 
-.contacts-item{
+.contacts-item {
 
   text-align: center;
   display: flex;
@@ -181,25 +165,26 @@
   align-items: center;
   transition: ease 0.5s;
   margin: 50px;
-  position: relative; 
+  position: relative;
   font-weight: bold;
 
 }
 
-.contacts-item:hover{
+.contacts-item:hover {
 
   transform: scale(1.1);
   cursor: pointer;
 
 }
 
-.contacts-item:hover:nth-child(2){
+.contacts-item:hover:nth-child(2) {
 
   transform: none;
+  cursor: default;
 
 }
 
-.nameContacts{
+.nameContacts {
 
   font-size: 2.4rem;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -216,15 +201,17 @@
 .link {
 
   position: absolute;
-  top: 10px; 
-  right: 10px; 
+  top: 10px;
+  right: 10px;
   width: 30px;
   height: 30px;
   cursor: pointer;
 
 }
 
-.project-item, .languages-item, .technologies-item {
+.project-item,
+.languages-item,
+.technologies-item {
 
   background-color: #000000;
   text-align: center;
@@ -234,18 +221,20 @@
   align-items: center;
   transition: ease 0.5s;
   padding: 100px 0;
-  position: relative; 
+  position: relative;
 
 }
 
-.project-item:hover, .languages-item:hover, .technologies-item:hover {
+.project-item:hover,
+.languages-item:hover,
+.technologies-item:hover {
 
   transform: scale(1.1);
   cursor: pointer;
 
 }
 
-.lineCV{
+.lineCV {
 
   width: 90%;
   margin: 50px 0;
@@ -256,14 +245,14 @@
 
 }
 
-.lineCV hr{
+.lineCV hr {
 
   border: 2px solid rgb(0, 0, 0);
   width: 100%;
 
 }
 
-.lineCV a{
+.lineCV a {
 
   font-size: 1.2rem;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -282,14 +271,15 @@
 
 }
 
-.lineCV a:hover{
+.lineCV a:hover {
 
   transform: scale(1.1);
   cursor: pointer;
 
 }
 
-.nameLanguages, .nameTechnologies {
+.nameLanguages,
+.nameTechnologies {
 
   font-size: 2.4rem;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -302,58 +292,143 @@
 
 }
 
-.languages-item:first-child h1{
+.languages-item:first-child h1 {
 
   font-size: 40px;
   color: rgb(0, 225, 255);
 
 }
 
-.languages-item:nth-child(2) h1{
+.languages-item:nth-child(2) h1 {
 
   font-size: 40px;
   color: rgb(255, 0, 0);
 
 }
 
-.languages-item:nth-child(3) h1{
+.languages-item:nth-child(3) h1 {
 
   font-size: 40px;
   color: rgb(255, 255, 0);
 
 }
 
-.languages-item:nth-child(4) h1{
+.languages-item:nth-child(4) h1 {
 
   font-size: 40px;
   color: rgb(255, 255, 0);
 
 }
 
-.languages-item:nth-child(5) h1{
+.languages-item:nth-child(5) h1 {
 
   font-size: 40px;
   color: rgb(61, 168, 255);
 
 }
 
-.languages-item:nth-child(6) h1{
+.languages-item:nth-child(6) h1 {
 
   font-size: 40px;
   color: rgb(0, 102, 255);
 
 }
 
-.technologies-item:first-child h1{
+.technologies-item:first-child h1 {
 
   font-size: 40px;
   color: white;
 
 }
 
-.technologies-item:nth-child(2) h1{
+.technologies-item:nth-child(2) h1 {
 
   font-size: 40px;
   color: rgb(0, 140, 255);
 
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .header h1 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .header .menu {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header .menu a {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+
+
+  .about p {
+    margin: 20px;
+    font-size: 1rem;
+  }
+
+  .part1 h1 {
+    font-size: 4rem;
+  }
+
+  .projects,
+  .languages,
+  .technologies {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .contacts {
+    flex-direction: column;
+    padding: 20px 0;
+  }
+
+  .contacts-item {
+    margin: 20px;
+  }
+
+  .nameContacts,
+  .nameProjects,
+  .nameLanguages,
+  .nameTechnologies {
+    font-size: 1.3rem;
+  }
+
+  .lineCV a {
+    width: 80%;
+    padding: 15px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .header h1 {
+    font-size: 1.8rem;
+  }
+
+  .header .menu a {
+    font-size: 1rem;
+    margin: 5px 0;
+  }
+
+  .about p {
+    font-size: 0.9rem;
+  }
+
+  .part1 h1 {
+    font-size: 3rem;
+  }
+
+  .lineCV a {
+    font-size: 1rem;
+    padding: 10px 0;
+  }
 }
