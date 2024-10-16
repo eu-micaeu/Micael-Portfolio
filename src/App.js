@@ -13,38 +13,41 @@ function App() {
 
         <FontDinamica />
 
-        <div className="menu">
-
-          <Link to="projects" smooth={true} duration={500}>
-            Projects
-          </Link>
-
-          <Link to="programmingLanguages" smooth={true} duration={500}>
-            Languages
-          </Link>
-
-          <Link to="frameworks" smooth={true} duration={500}>
-            Frameworks
-          </Link>
-
-          <Link to="technologies" smooth={true} duration={500}>
-            Technologies
-          </Link>
-
-        </div>
-
       </div>
 
       <div className="about">
 
+        <div className="part2">
+
+
+        </div>
+
         <div className="part1">
 
-          <img src="./1697155624138.jpg" alt="Profile" width={200} height={200} />
+          <div className="menu">
+
+            <Link to="projects" smooth={true} duration={500}>
+              Projects
+            </Link>
+
+            <Link to="programmingLanguages" smooth={true} duration={500}>
+              Languages
+            </Link>
+
+            <Link to="frameworks" smooth={true} duration={500}>
+              Frameworks
+            </Link>
+
+            <Link to="technologies" smooth={true} duration={500}>
+              Technologies
+            </Link>
+
+          </div>
 
           <h1>M</h1>
 
           <p>I am expanding my Software Engineering expertise at UTFPR, set to complete in December 2025. At Tata Consultancy Services, as a Junior Systems Analyst, I worked with HTTP protocols, Figma, and managed MySQL databases, honing my technical skills. Starting as a Trainee, I quickly advanced, driven by a passion for innovation and adaptability. This reflects my commitment to team and organizational goals.</p>
-        
+
         </div>
 
         <div className="part2">
