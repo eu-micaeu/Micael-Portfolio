@@ -37,7 +37,6 @@
   justify-content: space-around;
   width: 50%;
   font-family: monospace;
-  font-size: 1.2rem;
 
 }
 
@@ -47,24 +46,13 @@
   color: rgb(0, 175, 0);
   transition: ease 0.5s;
   font-weight: bold;
+  font-size: 1rem;
 
 }
 
 .header .menu a:hover {
 
   color: rgb(0, 0, 0);
-  cursor: pointer;
-
-}
-
-.header .menu button {
-
-  color: rgb(0, 175, 0);
-  background-color: transparent;
-  border: none;
-  padding: 10px 20px;
-  font-family: monospace;
-  font-size: 1.2rem;
   cursor: pointer;
 
 }
@@ -165,7 +153,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
-  width: 70%;
+  width: 60%;
   margin: 50px 0;
 }
 
@@ -181,8 +169,11 @@
   justify-content: center;
   align-items: center;
   transition: ease 0.5s;
-  padding: 100px 0;
+  padding: 50px;
   position: relative;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
 
 }
 
@@ -305,85 +296,85 @@
 
 }
 
-.languages-item:first-child h1 {
+.languages-item:first-child p {
 
   color: rgb(0, 225, 255);
 
 }
 
-.languages-item:nth-child(2) h1 {
+.languages-item:nth-child(2) p {
 
   color: rgb(255, 0, 0);
 
 }
 
-.languages-item:nth-child(3) h1 {
+.languages-item:nth-child(3) p {
 
   color: rgb(255, 255, 0);
 
 }
 
-.languages-item:nth-child(4) h1 {
+.languages-item:nth-child(4) p {
 
   color: rgb(255, 255, 0);
 
 }
 
-.languages-item:nth-child(5) h1 {
+.languages-item:nth-child(5) p {
 
   color: rgb(0, 102, 255);
 
 }
 
-.frameworks-item:first-child h1 {
+.frameworks-item:first-child p {
 
   color: rgb(0, 247, 255);
 
 }
 
-.frameworks-item:nth-child(2) h1 {
+.frameworks-item:nth-child(2) p {
 
   color: rgb(217, 255, 0);
 
 }
 
-.frameworks-item:nth-child(3) h1 {
+.frameworks-item:nth-child(3) p {
 
   color: rgb(0, 132, 255);
 
 }
 
-.frameworks-item:nth-child(4) h1 {
+.frameworks-item:nth-child(4) p {
 
   color: rgb(0, 255, 0);
 
 }
 
-.frameworks-item:nth-child(5) h1 {
+.frameworks-item:nth-child(5) p {
 
   color: rgb(218, 0, 0);
 
 }
 
-.technologies-item:first-child h1 {
+.technologies-item:first-child p {
 
   color: white;
 
 }
 
-.technologies-item:nth-child(2) h1 {
+.technologies-item:nth-child(2) p {
 
   color: rgb(0, 140, 255);
 
 }
 
-.technologies-item:nth-child(3) h1 {
+.technologies-item:nth-child(3) p {
 
   color: rgb(0, 132, 255);
 
 }
 
-.technologies-item:nth-child(4) h1 {
+.technologies-item:nth-child(4) p {
 
   color: rgb(255, 255, 255);
 

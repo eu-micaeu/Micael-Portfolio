@@ -40,12 +40,6 @@ function App() {
             Technologies
           </Link>
 
-          <button onClick={toggleLanguage} className="toggle-language-button">
-
-            {language === 'pt' ? 'EN' : 'PT'}
-
-          </button>
-
         </div>
 
       </div>
@@ -88,15 +82,9 @@ function App() {
 
           <svg className="link" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Interface / External_Link"> <path id="Vector" d="M10.0002 5H8.2002C7.08009 5 6.51962 5 6.0918 5.21799C5.71547 5.40973 5.40973 5.71547 5.21799 6.0918C5 6.51962 5 7.08009 5 8.2002V15.8002C5 16.9203 5 17.4801 5.21799 17.9079C5.40973 18.2842 5.71547 18.5905 6.0918 18.7822C6.5192 19 7.07899 19 8.19691 19H15.8031C16.921 19 17.48 19 17.9074 18.7822C18.2837 18.5905 18.5905 18.2839 18.7822 17.9076C19 17.4802 19 16.921 19 15.8031V14M20 9V4M20 4H15M20 4L13 11" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </g></svg>
 
-          <img src="https://github.com/eu-micaeu/TecTec/blob/main/static/images/logo.png?raw=true" alt="Project 1" width={100} height={100} />
+          <img src="https://github.com/eu-micaeu/TecTec/blob/main/static/images/logo.png?raw=true" alt="Project 1" width={75} height={75} />
 
-          <h1>
-
-            <span style={{ color: 'green', fontSize: 40 }}>Tec</span>
-
-            <span style={{ color: 'white', fontSize: 40 }}>Tec</span>
-
-          </h1>
+          <p>TecTec</p>
 
         </div>
 
@@ -104,13 +92,9 @@ function App() {
 
           <svg className="link" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Interface / External_Link"> <path id="Vector" d="M10.0002 5H8.2002C7.08009 5 6.51962 5 6.0918 5.21799C5.71547 5.40973 5.40973 5.71547 5.21799 6.0918C5 6.51962 5 7.08009 5 8.2002V15.8002C5 16.9203 5 17.4801 5.21799 17.9079C5.40973 18.2842 5.71547 18.5905 6.0918 18.7822C6.5192 19 7.07899 19 8.19691 19H15.8031C16.921 19 17.48 19 17.9074 18.7822C18.2837 18.5905 18.5905 18.2839 18.7822 17.9076C19 17.4802 19 16.921 19 15.8031V14M20 9V4M20 4H15M20 4L13 11" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </g></svg>
 
-          <img src="https://github.com/eu-micaeu/MyCommiserate/blob/main/static/images/logo.png?raw=true" alt="Project 2" width={100} height={100} />
+          <img src="https://github.com/eu-micaeu/MyCommiserate/blob/main/static/images/logo.png?raw=true" alt="Project 2" width={75} height={75} />
 
-          <h1>
-
-            <span style={{ color: 'white', fontSize: 40 }}>MyCommiserate</span>
-
-          </h1>
+          <p>MyCommiserate</p>
 
         </div>
 
@@ -118,13 +102,9 @@ function App() {
 
           <svg className="link" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Interface / External_Link"> <path id="Vector" d="M10.0002 5H8.2002C7.08009 5 6.51962 5 6.0918 5.21799C5.71547 5.40973 5.40973 5.71547 5.21799 6.0918C5 6.51962 5 7.08009 5 8.2002V15.8002C5 16.9203 5 17.4801 5.21799 17.9079C5.40973 18.2842 5.71547 18.5905 6.0918 18.7822C6.5192 19 7.07899 19 8.19691 19H15.8031C16.921 19 17.48 19 17.9074 18.7822C18.2837 18.5905 18.5905 18.2839 18.7822 17.9076C19 17.4802 19 16.921 19 15.8031V14M20 9V4M20 4H15M20 4L13 11" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </g></svg>
 
-          <img src="https://github.com/eu-micaeu/Foq/blob/main/static/logo.png?raw=true" alt="Project 3" width={100} height={100} />
+          <img src="https://github.com/eu-micaeu/Foq/blob/main/static/logo.png?raw=true" alt="Project 3" width={75} height={75} />
 
-          <h1>
-
-            <span style={{ color: 'white', fontSize: 40 }}>Foq!</span>
-
-          </h1>
+          <p>Foq!</p>
 
         </div>
 
@@ -142,9 +122,9 @@ function App() {
 
           <svg className="link" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Interface / External_Link"> <path id="Vector" d="M10.0002 5H8.2002C7.08009 5 6.51962 5 6.0918 5.21799C5.71547 5.40973 5.40973 5.71547 5.21799 6.0918C5 6.51962 5 7.08009 5 8.2002V15.8002C5 16.9203 5 17.4801 5.21799 17.9079C5.40973 18.2842 5.71547 18.5905 6.0918 18.7822C6.5192 19 7.07899 19 8.19691 19H15.8031C16.921 19 17.48 19 17.9074 18.7822C18.2837 18.5905 18.5905 18.2839 18.7822 17.9076C19 17.4802 19 16.921 19 15.8031V14M20 9V4M20 4H15M20 4L13 11" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </g></svg>
 
-          <img src="https://miro.medium.com/v2/resize:fit:600/1*i2skbfmDsHayHhqPfwt6pA.png" alt="GoLang" width={100} height={100} />
+          <img src="https://miro.medium.com/v2/resize:fit:600/1*i2skbfmDsHayHhqPfwt6pA.png" alt="GoLang" width={75} height={75} />
 
-          <h1>GoLang</h1>
+          <p>GoLang</p>
 
         </div>
 
@@ -152,19 +132,9 @@ function App() {
 
           <svg className="link" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Interface / External_Link"> <path id="Vector" d="M10.0002 5H8.2002C7.08009 5 6.51962 5 6.0918 5.21799C5.71547 5.40973 5.40973 5.71547 5.21799 6.0918C5 6.51962 5 7.08009 5 8.2002V15.8002C5 16.9203 5 17.4801 5.21799 17.9079C5.40973 18.2842 5.71547 18.5905 6.0918 18.7822C6.5192 19 7.07899 19 8.19691 19H15.8031C16.921 19 17.48 19 17.9074 18.7822C18.2837 18.5905 18.5905 18.2839 18.7822 17.9076C19 17.4802 19 16.921 19 15.8031V14M20 9V4M20 4H15M20 4L13 11" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </g></svg>
 
-          <img src="https://static-00.iconduck.com/assets.00/java-icon-1511x2048-6ikx8301.png" alt="Python" width={100} height={100} />
+          <img src="https://static-00.iconduck.com/assets.00/java-icon-1511x2048-6ikx8301.png" alt="Python" width={75} height={75} />
 
-          <h1>Java</h1>
-
-        </div>
-
-        <div className="languages-item">
-
-          <svg className="link" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Interface / External_Link"> <path id="Vector" d="M10.0002 5H8.2002C7.08009 5 6.51962 5 6.0918 5.21799C5.71547 5.40973 5.40973 5.71547 5.21799 6.0918C5 6.51962 5 7.08009 5 8.2002V15.8002C5 16.9203 5 17.4801 5.21799 17.9079C5.40973 18.2842 5.71547 18.5905 6.0918 18.7822C6.5192 19 7.07899 19 8.19691 19H15.8031C16.921 19 17.48 19 17.9074 18.7822C18.2837 18.5905 18.5905 18.2839 18.7822 17.9076C19 17.4802 19 16.921 19 15.8031V14M20 9V4M20 4H15M20 4L13 11" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </g></svg>
-
-          <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="JavaScript" width={100} height={100} />
-
-          <h1>JavaScript</h1>
+          <p>Java</p>
 
         </div>
 
@@ -172,9 +142,9 @@ function App() {
 
           <svg className="link" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Interface / External_Link"> <path id="Vector" d="M10.0002 5H8.2002C7.08009 5 6.51962 5 6.0918 5.21799C5.71547 5.40973 5.40973 5.71547 5.21799 6.0918C5 6.51962 5 7.08009 5 8.2002V15.8002C5 16.9203 5 17.4801 5.21799 17.9079C5.40973 18.2842 5.71547 18.5905 6.0918 18.7822C6.5192 19 7.07899 19 8.19691 19H15.8031C16.921 19 17.48 19 17.9074 18.7822C18.2837 18.5905 18.5905 18.2839 18.7822 17.9076C19 17.4802 19 16.921 19 15.8031V14M20 9V4M20 4H15M20 4L13 11" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </g></svg>
 
-          <img src="https://images.ctfassets.net/em6l9zw4tzag/oVfiswjNH7DuCb7qGEBPK/b391db3a1d0d3290b96ce7f6aacb32b0/python.png" alt="Python" width={100} height={100} />
+          <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="JavaScript" width={75} height={75} />
 
-          <h1>Python</h1>
+          <p>JavaScript</p>
 
         </div>
 
@@ -182,9 +152,19 @@ function App() {
 
           <svg className="link" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Interface / External_Link"> <path id="Vector" d="M10.0002 5H8.2002C7.08009 5 6.51962 5 6.0918 5.21799C5.71547 5.40973 5.40973 5.71547 5.21799 6.0918C5 6.51962 5 7.08009 5 8.2002V15.8002C5 16.9203 5 17.4801 5.21799 17.9079C5.40973 18.2842 5.71547 18.5905 6.0918 18.7822C6.5192 19 7.07899 19 8.19691 19H15.8031C16.921 19 17.48 19 17.9074 18.7822C18.2837 18.5905 18.5905 18.2839 18.7822 17.9076C19 17.4802 19 16.921 19 15.8031V14M20 9V4M20 4H15M20 4L13 11" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </g></svg>
 
-          <img src="./c.png" width={100} height={100}></img>
+          <img src="https://images.ctfassets.net/em6l9zw4tzag/oVfiswjNH7DuCb7qGEBPK/b391db3a1d0d3290b96ce7f6aacb32b0/python.png" alt="Python" width={75} height={75} />
 
-          <h1>C</h1>
+          <p>Python</p>
+
+        </div>
+
+        <div className="languages-item">
+
+          <svg className="link" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Interface / External_Link"> <path id="Vector" d="M10.0002 5H8.2002C7.08009 5 6.51962 5 6.0918 5.21799C5.71547 5.40973 5.40973 5.71547 5.21799 6.0918C5 6.51962 5 7.08009 5 8.2002V15.8002C5 16.9203 5 17.4801 5.21799 17.9079C5.40973 18.2842 5.71547 18.5905 6.0918 18.7822C6.5192 19 7.07899 19 8.19691 19H15.8031C16.921 19 17.48 19 17.9074 18.7822C18.2837 18.5905 18.5905 18.2839 18.7822 17.9076C19 17.4802 19 16.921 19 15.8031V14M20 9V4M20 4H15M20 4L13 11" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </g></svg>
+
+          <img src="./c.png" width={75} height={75}></img>
+
+          <p>C</p>
 
         </div>
 
@@ -204,7 +184,7 @@ function App() {
 
           <img src="./react.png" width={100} height={100}></img>
 
-          <h1>React</h1>
+          <p>React</p>
 
         </div>
 
@@ -214,7 +194,7 @@ function App() {
 
           <img src="./express-js.png" width={100} height={100}></img>
 
-          <h1>ExpressJS</h1>
+          <p>ExpressJS</p>
 
         </div>
 
@@ -224,7 +204,7 @@ function App() {
 
           <img src="./gin.png" width={100} height={100}></img>
 
-          <h1>Gin</h1>
+          <p>Gin</p>
 
         </div>
 
@@ -234,7 +214,7 @@ function App() {
 
           <img src="./spring.png" width={135} height={100}></img>
 
-          <h1>Spring Boot</h1>
+          <p>Spring Boot</p>
 
         </div>
 
@@ -244,7 +224,7 @@ function App() {
 
           <img src="./angular.png" width={100} height={100}></img>
 
-          <h1>AngularJS</h1>
+          <p>AngularJS</p>
 
         </div>
 
@@ -270,7 +250,7 @@ function App() {
             </g>
           </svg>
 
-          <h1>GitHub</h1>
+          <p>GitHub</p>
 
         </div>
 
@@ -280,7 +260,7 @@ function App() {
 
           <img src="./docker.png" width={100} height={100}></img>
 
-          <h1>Docker</h1>
+          <p>Docker</p>
 
         </div>
 
@@ -290,7 +270,7 @@ function App() {
 
           <img src="./visual.png" width={100} height={100}></img>
 
-          <h1>Visual Studio Code</h1>
+          <p>Visual Studio Code</p>
 
         </div>
 
@@ -300,7 +280,7 @@ function App() {
 
           <img src="./figma.png" width={100} height={100}></img>
 
-          <h1>Figma</h1>
+          <p>Figma</p>
 
         </div>
 
