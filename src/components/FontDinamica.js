@@ -19,7 +19,7 @@ const FontDinamica = () => {
 
             });
 
-        }, 200);
+        }, 500);
 
         return () => clearInterval(interval);
     }, []);
