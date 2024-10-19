@@ -9,11 +9,7 @@ function App() {
 
     <div className="body">
 
-      <div className="header">
-
-        <FontDinamica />
-
-      </div>
+      <div class="main"></div>
 
       <div className="about">
 
@@ -24,7 +20,7 @@ function App() {
 
         <div className="part1">
 
-          <h1>M</h1>
+          <FontDinamica></FontDinamica>
 
           <p>I am expanding my Software Engineering expertise at UTFPR, set to complete in December 2025. At Tata Consultancy Services, as a Junior Systems Analyst, I worked with HTTP protocols, Figma, and managed MySQL databases, honing my technical skills. Starting as a Trainee, I quickly advanced, driven by a passion for innovation and adaptability. This reflects my commitment to team and organizational goals.</p>
 
